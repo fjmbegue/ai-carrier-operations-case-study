@@ -22,8 +22,9 @@ Writing a booking into a legacy TMS
 
 Handling failures and ambiguous system states safely
 
-High level architecture
+## High level architecture
 
+```mermaid
 flowchart LR
     A[Voice AI Agent] --> B[Identity Verification]
     B --> C[OTP Authentication]
